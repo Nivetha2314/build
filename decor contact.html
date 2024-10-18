@@ -1,0 +1,181 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        height:100%;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      * {
+        box-sizing: none;
+      }
+
+      .bg-img {
+        /* The image used */
+        background-image: url("./images/pexels-photo.webp");
+        max-width: 100%;
+        min-height: 500px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      /* Add styles to the form container */
+      .container {
+        position: absolute;
+        margin-top:100px;
+        margin-right:50%;
+        height:250px;
+        width: 250px;
+        padding-left:200px;
+        padding-bottom:900px;
+      }
+
+      /* Full-width input fields */
+      input[type=text],
+      input[type=password] {
+        width:200px;
+        padding-right:200px;
+        margin:5px 0 22px 0;
+        border: none;
+        display:inline-block;
+        
+
+      }
+
+      input[type=text]:focus,
+      input[type=password]:focus {
+        background-color:white;
+        outline: none;
+      }
+
+      /* Set a style for the submit button */
+      .btn {
+        background-color:darkgoldenrod;
+        color: white;
+        padding-right: 0px;
+        padding-bottom:0px;
+        border: none;
+      /* cursor: pointer;*/
+        width:230px;
+        height:40px;
+        opacity: 0.9;
+        display:inline-block;
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 10px;
+      }
+      .btn:hover {
+        opacity: 1;
+      }
+      .card-header {
+        color:white;
+        font-size: 120px;
+        height:120px;
+        padding-top:0px;
+        border-style: none;
+        background-color: none;
+      }
+      .card-body{
+        width:70%;
+        border-style: none;
+      
+      }
+      .card{
+        width:100%;
+      }
+      .container{
+        display:inline-block;
+        margin-left:0px;
+      }
+      .card-title{
+        color:black;
+        font-size: 50px;
+      }
+      .card-text{
+         color:lightyellow;
+         font-size: 20px;
+      }
+    </style>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top" style="height:50px width 100%;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/interior-concept.jpg" height="50px" width="70px"><span
+            style="margin-top:0px;"></span>
+          <span
+            style="color:navy;font-family: 'Times New Roman', Times, serif;font-size:70px; padding: 10px;">&nbsp;Build
+            Home</span></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <li class="nav-item" style="font-size: larger;">
+            <a class="nav-link active" aria-current="page" href="./buid home.html" data-bs-toggle="tooltip"
+              data-bs-placement="bottom" title="products">
+              <span>
+                <img src="./images/icons8-home-50.png">
+              </span>
+              <span style="font-size: larger; color: black; padding:50px; padding-left:10px;">
+                Home
+            </a>
+            </span>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="products">
+              <span>
+                <img src="./images/icons8-use-case-50.png">
+              </span>
+              <span style="font-size: larger; color: black; padding:50px padding left 10px;" >
+                UseCase
+            </a>
+            </span>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:white;">
+              <li><a class="dropdown-item" href="./room .html">Living Room</a></li>
+              <li><a class="dropdown-item" href="./bedroom.html">Bed Room</a></li>
+              <li><a class="dropdown-item" href="#">Kids Room Layouts</a></li>
+              <li><a class="dropdown-item" href="./kitchen.html">Kitchen & Modular</a></li>
+              <li><a class="dropdown-item" href="./bathroom.html">restroom</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogin.html">
+              <span style="font-size: larger; color: black; padding:50px">
+                Login</a>
+            </span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="decor contact.html">
+              <span style="font-size: larger; color: black; padding:50px">
+                Contacts</a>
+            </span>
+          </li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div class="card">
+        <div class="bg-img">
+          <div class="card-header">
+            ABOUT US
+          </div>
+        <br>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Build Home is smart,real.Trustworthy,We DO Not Belabor Design Trends And we Always speak About us from th top of the intelligence.A Company you can rely on!Every projrct is crucial to us-No Matter how big or small or whther residential or industrial.</p>
+            <a href="#" class="btn btn-danger">Schedule your consultant</a>
+            <form action="/action_page.php" class="container">
